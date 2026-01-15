@@ -134,7 +134,7 @@ function Navbar({ onOpenSignup }) {
                   </div>
                 </Link>
                 <a
-                  href="/#automatizacion"
+                  href="#automatizacion"
                   className="block rounded-xl px-3 py-2 text-sm hover:bg-slate-50 transition"
                 >
                   <div className="font-medium text-slate-900">Automatización</div>
@@ -143,7 +143,7 @@ function Navbar({ onOpenSignup }) {
                   </div>
                 </a>
                 <a
-                  href="/#integraciones"
+                  href="#integraciones"
                   className="block rounded-xl px-3 py-2 text-sm hover:bg-slate-50 transition"
                 >
                   <div className="font-medium text-slate-900">Integraciones</div>
@@ -158,10 +158,10 @@ function Navbar({ onOpenSignup }) {
           <Link to="/precios" className={UI.navLink}>
             Precios
           </Link>
-          <a href="/#por-que" className={UI.navLink}>
+          <a href="#por-que" className={UI.navLink}>
             ¿Por qué CALink?
           </a>
-          <a href="/#acerca" className={UI.navLink}>
+          <a href="#acerca" className={UI.navLink}>
             Acerca de
           </a>
         </nav>
@@ -225,13 +225,13 @@ function Navbar({ onOpenSignup }) {
                   Suite CALink
                 </Link>
                 <a
-                  href="/#automatizacion"
+                  href="#automatizacion"
                   className="block px-2 py-2 rounded-xl text-sm hover:bg-slate-50 transition"
                 >
                   Automatización
                 </a>
                 <a
-                  href="/#integraciones"
+                  href="#integraciones"
                   className="block px-2 py-2 rounded-xl text-sm hover:bg-slate-50 transition"
                 >
                   Integraciones
@@ -246,13 +246,13 @@ function Navbar({ onOpenSignup }) {
               Precios
             </Link>
             <a
-              href="/#por-que"
+              href="#por-que"
               className="block px-2 py-2 rounded-xl text-sm hover:bg-slate-50 transition"
             >
               ¿Por qué CALink?
             </a>
             <a
-              href="/#acerca"
+              href="#acerca"
               className="block px-2 py-2 rounded-xl text-sm hover:bg-slate-50 transition"
             >
               Acerca de
